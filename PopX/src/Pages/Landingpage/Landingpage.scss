@@ -1,0 +1,91 @@
+.dashboard-container {
+  width: 375px;
+  height: 812px;
+  background-color: #f7f8f9;
+  margin: auto;
+  border: 1px solid rgb(154, 153, 153, 0.2);
+  position: relative;
+
+  .dashboard-heading {
+    position: absolute;
+    top: 549px;
+    left: 20px;
+    width: 231px;
+    height: 33px;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 17px;
+    color: rgba(29, 34, 38, 1);
+    opacity: 1;
+  }
+  p {
+    position: absolute;
+    top: 592px;
+    left: 20px;
+    width: 232px;
+    height: 48px;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: 0.6;
+  }
+
+  .createaccount {
+    position: absolute;
+    top: 669px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+
+    border: none;
+    background: #6c25ff 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .loginbutton {
+    position: absolute;
+
+    top: 725px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+
+    border: none;
+    background: rgba(108, 37, 255, 0.29) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 6px;
+    text-align: center;
+    // font: normal normal medium 16px/17px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: 1;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

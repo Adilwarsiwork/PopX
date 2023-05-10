@@ -1,0 +1,368 @@
+.signpage-container {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  margin: auto;
+
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+
+  .signinheading {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 188px;
+    height: 69px;
+
+    // font: normal normal medium 28px/36px Rubik;
+    font-family: "rubik", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #1d2226;
+    opacity: 1;
+  }
+  .signinform {
+    position: absolute;
+
+    .inputs {
+      position: absolute;
+      width: 335px;
+      height: 40px;
+
+      border: 1px solid #cbcbcb;
+      border-radius: 6px;
+      opacity: 1;
+      padding-left: 17px;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border: 2px solid rgba(108, 37, 255, 0.29);
+      }
+    }
+    #fullnamelabel {
+      position: absolute;
+      top: 131px;
+      left: 29px;
+      width: 96px;
+      height: 17px;
+      padding-left: 5px;
+
+      background: #f7f8f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 10;
+
+      //   font: normal normal normal 13px/17px Rubik;font-family: "rubik", sans-serif;
+      text-align: left;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #6c25ff;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        color: #dd4a3d;
+      }
+    }
+
+    #phonenumberlabel {
+      position: absolute;
+      top: 200px;
+      left: 29px;
+      width: 99.5px;
+      height: 17px;
+      padding-left: 4px;
+
+      background: #f7f8f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 10;
+
+      //   font: normal normal normal 13px/17px Rubik;font-family: "rubik", sans-serif;
+      text-align: left;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #6c25ff;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        color: #dd4a3d;
+      }
+    }
+
+    #emaillabel {
+      position: absolute;
+      top: 269px;
+      left: 29px;
+      width: 96px;
+      height: 17px;
+      padding-left: 5px;
+
+      background: #f7f8f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 10;
+
+      //   font: normal normal normal 13px/17px Rubik;font-family: "rubik", sans-serif;
+      text-align: left;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #6c25ff;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        color: #dd4a3d;
+      }
+    }
+
+    #passwordlabel {
+      position: absolute;
+      top: 338px;
+      left: 29px;
+      width: 96px;
+      height: 17px;
+      padding-left: 5px;
+
+      background: #f7f8f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 10;
+
+      //   font: normal normal normal 13px/17px Rubik;font-family: "rubik", sans-serif;
+      text-align: left;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #6c25ff;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        color: #dd4a3d;
+      }
+    }
+
+    #companylabel {
+      position: absolute;
+      top: 407px;
+      left: 29px;
+      width: 99px;
+      height: 17px;
+      padding-left: 4px;
+
+      background: #f7f8f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 10;
+
+      //   font: normal normal normal 13px/17px Rubik;font-family: "rubik", sans-serif;
+      text-align: left;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #6c25ff;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        color: #dd4a3d;
+      }
+    }
+
+    .fullnamefield {
+      position: absolute;
+      top: 140px;
+      left: 20px;
+      width: 335px;
+      height: 40px;
+
+      text-align: left;
+      //   font: normal normal normal 13px/17px Rubik;
+      font-family: "rubik", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #1d2226;
+      opacity: 1;
+
+      background-color: #f7f8f9;
+    }
+
+    .phonenumberfield {
+      position: absolute;
+      top: 209px;
+      left: 20px;
+      width: 335px;
+      height: 40px;
+
+      text-align: left;
+      //   font: normal normal normal 13px/17px Rubik;
+      font-family: "rubik", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #1d2226;
+      background-color: #f7f8f9;
+    }
+    .emailfield {
+      position: absolute;
+      top: 278px;
+      left: 20px;
+      width: 335px;
+      height: 40px;
+
+      text-align: left;
+      //   font: normal normal normal 13px/17px Rubik;
+      font-family: "rubik", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #1d2226;
+      background-color: #f7f8f9;
+    }
+    .passwordfield {
+      position: absolute;
+      top: 347px;
+      left: 20px;
+      width: 335px;
+      height: 40px;
+
+      text-align: left;
+      //   font: normal normal normal 13px/17px Rubik;
+      font-family: "rubik", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #1d2226;
+      background-color: #f7f8f9;
+    }
+    .companyfield {
+      position: absolute;
+      top: 416px;
+      left: 20px;
+      width: 335px;
+      height: 40px;
+
+      text-align: left;
+      //   font: normal normal normal 13px/17px Rubik;
+      font-family: "rubik", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: rgba(29, 34, 38, 1);
+      background-color: #f7f8f9;
+    }
+  }
+
+  .radioinputfield {
+    position: absolute;
+    top: 474.5px;
+    left: 20px;
+    width: 132px;
+    height: 47px;
+
+    .inputtitle {
+      //   font: normal normal normal 13px/17px Rubik;
+      position: absolute;
+      font-family: "rubik", sans-serif;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: 0px;
+      opacity: 1;
+      span {
+        top: 0px;
+        left: 120px;
+        width: 6px;
+        height: 15px;
+        color: #dd4a3d;
+      }
+    }
+
+    .radiobuttons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 5px;
+      span {
+        text-align: left;
+        letter-spacing: 0px;
+        color: #1d2226;
+        font-family: "Rubik", sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        opacity: 1;
+        margin-bottom: 27px;
+        margin-left: 11.34px;
+      }
+
+      #radiolabelyes {
+        margin-bottom: 24px;
+        #yes {
+          width: 22px;
+          height: 22px;
+          accent-color: #6c25ff;
+        }
+      }
+
+      #radiolabelno {
+        margin-bottom: 4px;
+        #no {
+          width: 22px;
+          height: 22px;
+          accent-color: #6c25ff;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  .buttonsignin {
+    position: absolute;
+    top: 736px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+
+    background: #6c25ff 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    border: none;
+
+    text-align: center;
+    // font: normal normal medium 16px/17px Rubik;
+    font-family: "rubik", sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
