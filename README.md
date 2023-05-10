@@ -1,6 +1,6 @@
 #PopX Dashboard
 
-This is a dashboard of PopX dashboard site.
+This is a dashboard of PopX site.
 
 #Demo
 
